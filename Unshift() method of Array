@@ -1,0 +1,18 @@
+//The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+
+let Friendlist = ['Ram'];
+
+function addNewFriend(friend){
+    Friendlist.unshift(friend)
+    console.log(Friendlist);
+}
+
+addNewFriend('Joe');
+addNewFriend('Tesla');
+addNewFriend('Kishan');
+
+>>>>OUTPUT<<<<<<
+
+(2) ['Joe', 'Ram']
+(3) ['Tesla', 'Joe', 'Ram']
+(4) ['Kishan', 'Tesla', 'Joe', 'Ram']
