@@ -1,0 +1,19 @@
+The find method takes a callback function as the first argument and executes the callback function for every element of the array. Each array element value is passed as the first parameter to the callback function.
+
+const employees = [
+ { name: "David Carlson", age: 30 },
+ { name: "John Cena", age: 34 },
+ { name: "Mike Sheridan", age: 25 },
+ { name: "John Carte", age: 50 }
+];
+
+let user;
+
+for(let i = 0; i < employees.length; i++) {
+  if(employees[i].name.indexOf('John') > -1) {
+    user = employees[i];
+    break;
+  }
+}
+
+console.log(user); // { name: "John Cena", age: 34 }
