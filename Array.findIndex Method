@@ -1,0 +1,19 @@
+The findIndex method returns the index of the first element in the array that satisfies the provided test condition. Otherwise, it returns -1, indicating that no element passed the test.
+
+const employees = [
+  { name: 'David Carlson', age: 30 },
+  { name: 'John Cena', age: 34 },
+  { name: 'Mike Sheridan', age: 25 },
+  { name: 'John Carte', age: 50 }
+];
+
+let index = -1;
+
+for(let i = 0; i < employees.length; i++) {
+  if(employees[i].name.indexOf('John') > -1) {
+    index = i;
+    break;
+  }
+}
+
+console.log(index); // 1
