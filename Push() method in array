@@ -1,0 +1,12 @@
+// The arr.push() method is used to push one or more values into the array. This method changes the length of the array by the number of elements added to the array.
+
+let Friendlist = [];
+
+function addNewFriend(friend){
+    Friendlist.push(friend)
+    console.log(Friendlist);
+}
+
+addNewFriend('Joe');
+addNewFriend('Tesla','Newton');
+addNewFriend('Kishan','John','Barry');
