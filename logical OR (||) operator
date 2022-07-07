@@ -1,0 +1,10 @@
+In this example, even though the isSale variable is set to false, the code inside the if block will still execute because the boyfriendIsPaying variable is set to true.
+
+const boyfriendIsPaying = true;
+const isSale = false;
+
+if (boyfriendIsPaying || isSale) {
+  console.log("Jesse will go shopping.");
+} else {
+  console.log("Jesse will not go shopping.");
+}
