@@ -1,0 +1,9 @@
+The if...else is a type of conditional statement that will execute a block of code when the condition in the if statement is truthy. If the condition is falsy, then the else block will be executed.
+
+const age = 18;
+
+if (age >= 18) {
+  console.log("Nick is an adult.");
+} else {
+  console.log("Nick is a child.");
+}
