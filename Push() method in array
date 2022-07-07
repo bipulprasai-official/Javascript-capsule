@@ -8,5 +8,12 @@ function addNewFriend(friend){
 }
 
 addNewFriend('Joe');
-addNewFriend('Tesla','Newton');
-addNewFriend('Kishan','John','Barry');
+addNewFriend('Tesla');
+addNewFriend('Kishan');
+
+
+>>>>>OUTPUT<<<<<<<
+
+(1) ['Joe']
+(2) ['Joe', 'Tesla']
+(3) ['Joe', 'Tesla', 'Kishan']
