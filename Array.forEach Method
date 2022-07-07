@@ -1,0 +1,16 @@
+The forEach method executes a provided function once for every element in the array.
+
+const months = ['January', 'February', 'March', 'April'];
+
+for(let i = 0; i < months.length; i++) {
+  console.log(months[i]);
+}
+
+/* output
+
+January
+February
+March
+April
+
+*/
