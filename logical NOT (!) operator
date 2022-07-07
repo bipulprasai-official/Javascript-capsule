@@ -1,0 +1,10 @@
+We can modify the example from earlier to use the ! operator to make the boyfriendIsPaying variable  false. Since both conditions are false, the else block would be executed.
+
+const boyfriendIsPaying = true;
+const isSale = false;
+
+if (!boyfriendIsPaying || isSale) {
+  console.log("Jesse will go shopping.");
+} else {
+  console.log("Jesse will not go shopping.");
+}
